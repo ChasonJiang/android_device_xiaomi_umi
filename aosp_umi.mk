@@ -21,12 +21,12 @@ $(call inherit-product, device/xiaomi/umi/kona.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_umi
+PRODUCT_NAME := aosp_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 10
 PRODUCT_MANUFACTURER := Xiaomi
-DEVICE_MAINTAINER := ChaptSand
+DEVICE_MAINTAINER := ChasonJiang
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
